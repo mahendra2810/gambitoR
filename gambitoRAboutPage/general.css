@@ -1,0 +1,394 @@
+body{
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 17%;
+  font-family: space Grotesk,roboto;
+}
+.header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(101, 101, 180,0.9);
+  padding-bottom: 1%;
+  padding-top: 1.5%;
+  padding-left: 10%;
+}
+.logo{
+  width: 65px;
+}
+.title{
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  font-size: 200%;
+  font-weight: bold;
+  color: #ffb900;
+}
+.r{
+  font-size:150% ;
+}
+@media (max-width:600px){
+  .logo{
+    width: 40px;
+  }
+  .title{
+    font-size: 155%;
+  }
+}
+.aboutUs{
+  text-align: center;
+  margin-bottom: 10%;
+}
+.heading{
+  color: white;
+  display: inline-block;
+  color: #ffb900;
+  font-weight: bold;
+  font-size: 200%;
+  border-color: burlywood;
+  border-width:2px ;
+  border-style:solid ;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  background-color: rgba(160, 160, 214,0.25)
+}
+.info{
+  margin-left: 14%;
+  margin-top: 5%;
+  color: white;
+  width: 75%;
+  text-align: center;
+  font-size: 160%;
+  line-height: 150%;
+}
+@media (max-width:850px){
+  body{
+    margin-top: 25%;  
+  }
+  .heading{
+    padding-left: 5px ;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 120%;
+  }
+}
+@media (max-width:850px) and (min-width:500px){
+  .aboutUs .info{
+    font-size: 110%;
+  }
+}
+@media (max-width:499px){
+  .aboutUs .info{
+    font-size: 80%;
+    width: 80%;
+    margin-left: 12%;
+  }
+}
+.rounds{
+  text-align: center;
+}
+.roundsInfo{
+  margin-left: 14%;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  color: white;
+  width: 75%;
+  text-align: center;
+  font-size: 180%;
+  line-height: 150%;
+  word-spacing: 0.3em;
+  font-weight: bold;
+}
+.roundsNum{
+  color: #ffb900;
+  font-size: 105%;
+}
+.numRound{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10%;
+}
+.text{
+  align-items: center;
+}
+.roundName{
+  color: #ffb900;
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.roundInfo{
+  color: white;
+  width: 85%;
+  font-size: 150%;
+  padding-left: 10%;
+  word-spacing: 0.2em;
+  line-height: 120%;
+}
+@media (max-width:850px) and (min-width:500px){
+  .roundsInfo{
+    font-size: 145%;
+  }
+  .roundName{
+    font-size: 130%;
+  }
+  .roundInfo{
+    font-size: 120%;
+  }
+}
+@media (max-width:499px){
+  .roundsInfo{
+    font-size: 100%;
+  }
+  .roundName{
+    font-size: 120%;
+  }
+  .roundInfo{
+    font-size: 65%;
+    width: 95%;
+    padding-left: 5%;
+  }
+}
+.image{
+  padding-top: 10%;
+}
+.firstImage{
+  width: 55%;
+}
+@media (max-width:850px) and (min-width:500px){
+  .image{
+    padding-top:25%;
+  }
+  .firstImage{
+    width: 70%;
+  }
+}
+@media (max-width:499px) and (min-width:385px){
+  .image{
+    padding-top: 35%;
+  }
+}
+@media (max-width:384px){
+  .image{
+    padding-top: 50%;
+  }
+  .firstImage{
+    width: 80%;
+  }
+}
+.categories{
+  text-align: center;
+  margin-bottom: 10%;
+}
+.ageGroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 5%;
+}
+.classLogo{
+  width: 80%;
+}
+.dateVenue{
+  text-align: center;
+  margin-bottom: 10%;
+}
+.line{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  margin-top: 5%;
+}
+.detail{
+  color: white;
+  font-size: 200%;
+  text-align: left;
+  width: 80%;
+  line-height: 150%;
+}
+.point{
+  height: 60px;
+}
+@media (max-width:850px) and (min-width:500px){
+  .point{
+    height:45px;
+  }
+  .detail{
+    font-size: 120%;
+  }
+}
+@media (max-width:499px){
+  .point{
+    height: 40px;
+  }
+  .detail{
+    font-size:80% ;
+    line-height: 115%;
+    width: 90%;
+  }
+}
+.i{
+  padding-left: 15%;
+}
+.prizes{
+  text-align: center;
+}
+@media (max-width:850px) and (min-width:500px){
+  .prizes .roundsInfo{
+    font-size: 130%;
+  }
+}
+@media (max-width:499px){
+  .prizes .roundsInfo{
+    font-size: 80%;
+    line-height: 110%;
+    width: 82%;
+  }
+}
+.im{
+  max-width: 50%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.uni .logo{
+  height: 100%;
+  width: 35%;
+}
+.name{
+  color: #ffb900;
+  font-weight: bold;
+  font-size: 150%;
+}
+.re{
+  font-size: 150%;
+}
+.bottom{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+}
+.bi,.tri,.tetra{
+  color: white;
+  text-align: left;
+  padding-left: 20%;
+}
+.tetra{
+  padding-left: 15%;
+}
+.otherInfo{
+  margin-bottom: 8%;
+  font-size: 125%;
+  white-space: nowrap;
+}
+.tri{
+  padding-left: 20%;
+}
+.follow{
+  display: flex;
+}
+.app{
+  flex: 1;
+}
+.appLogo{
+  height: 30px;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.iitr{
+  height: 45px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.footer{
+  text-align: center;
+  color: grey;
+}
+@media (max-width:850px) and (min-width:530px){
+  .uni .logo{
+    height: 80%;
+  }
+  .name{
+    font-size: 120%;
+  }
+  .otherInfo{
+    font-size: 100%;
+  }
+  .appLogo{
+    height: 25px;
+  }
+  .iitr{
+    height: 40px;
+  }
+  .footer{
+    font-size: 100%;
+  }
+}
+@media (max-width:529px) and (min-width:385px){
+  .uni .logo{
+    height: 60%;
+    width: 50%;
+  }
+  .name{
+    font-size: 95%;
+  }
+  .otherInfo{
+    font-size: 80%;
+  }
+  .tri{
+    padding-left: 12%;
+  }
+  .appLogo{
+    height: 23px;
+  }
+  .iitr{
+    height: 30px;
+  }
+  .footer{
+    font-size: 80%;
+  }
+}
+@media (max-width:384px){
+  .uni .logo{
+    height:50% ;
+    width:50% ; 
+  }
+  .name{
+    font-size: 60%;
+  }
+  .otherInfo{
+    font-size: 55%;
+  }
+  .appLogo{
+    height: 10px;
+  }
+  .iitr{
+    height:25px ;
+  }
+  .footer{
+    font-size: 60%;
+  }
+  .dupl{
+    margin-left: 10%;
+  }
+}
+.iitLogo{
+  text-align: center;
+}
+.dupl{
+  display: inline-block;
+  margin-left: 5% ;
+}
+.bi .otherInfo:hover,
+.tri .otherInfo:hover,
+.dupl :hover{
+  cursor: pointer;
+}
